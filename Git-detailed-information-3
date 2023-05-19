@@ -1,0 +1,4 @@
+ Git status - This command is used to display the current status of git repository. It provides information about the current working directory, staging area and the relationship between local and remote repositories. 
+(i) Branch information - This command allows the name of the current branch you are on. It indicates which branch you are wroking on, allowing you to keep track of your progress within the repository.
+(ii) Working directory status - This displays the status of your files in the working directory. It shows modifications, additions or deletion made to file since commkit.
+(iii) Staging area status - The command also provides information about the staging area. The staging area is where you prepare and stage changes before commiting them.
