@@ -1,0 +1,24 @@
+1. Git branch - This command is used to manage branches in Git repositories. It allows me to view, create, delete and manage branches.
+(i) List branches - When we run git branch without any additional options or arguments, it lists all the branches in my repositories. The current branch is indicated with an star(*) and other branches listed below.
+(ii) Create a new branch - When create a new branch we provide it with the argument to the git branch command.
+For example - git checkout  -b "name of the new branch".
+(iii) Switch to a branch - The command itself does not change to different branch. To switch to different branch we use 'git checkout' command or 'git switch' command followed by the branch name.
+For example - git checkout 'branch name'.
+(iv) Rename a branch - oFor renaming of the branch we can '-m' option followed by old branch name and new branch name.
+For example - git branch -m old branch new branch
+(v) Delete a branch - To delete a branch we use '-d' option followed by the branch name.
+for example - git branch -d branch-to-delete
+
+2. Git log - This command is used to view the commit history of Git repository. It diplays the list of commits, showing details such commit hash, author, date and commit message.
+(i) Commit history - When you run 'git log', Git retrieves the commit history of the current branch and displays it in reverse order, starting with the most recent commit.
+(ii) Commit hash - The commit hash is a unique identifier for each commit. 
+
+3. Git push origin <branch name> - This command line is used to upload the local commits of a specific branch to a remote repository. It sends the commit to remote repository specified by the name 'origin'.
+(i) Remote repository - In, Git a remote repository is a copy of a repository hosted on a different machine or a server.
+(ii) Branch name - We need to specify the branch name as an argument in the 'git push' command.
+(iii) Commit transfer - When we run 'git push origin <branch name>', Git compares the local branch with the corresponding branch in remote repository.
+
+4. Git pull - This commands is used to update your local repository with latest changes from a remote repository. It combines two operations: fetching the latest commits from the repository and merging them into your current branch.
+(i) Fetching - When you run 'git pull', Git contacts the remote repository and retrieves the latets commits and assosiated objects from the remote repository.
+(ii) Updating the remote - After fetching, Git updates the corresponding remote - teacking branch in your local repository.
+(iii) Merging changes - After updating the remote - trackking branch, Git performs a merge operation to combine the fetched commits with your current branch.
