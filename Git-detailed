@@ -1,0 +1,20 @@
+1. Git init - This command is used to initialize a new git repository in the directory. When we run this command git sets up the files to start version controlling project.
+(i) Creation of the Git repository - Git creates a new directory called a '.git' at the project. This directory stores all the metadata and objects that make up the repository.
+(ii) Initialization of git repository -  Inside '.git' directory Git sets up the initial sturcture of a empty file and subdirectories like 'branches'.
+(iii) Confriguration setup - Git initializes the repository with the default confriguration values. These values can be modified using the '.git config' command. The configuration can be stored in the '.git/config' file within the repository.
+(iv) Current working directory - The directory where we can run '.git init' becomes the working directory of Git repository.
+
+2. Git clone - This command is used to create a copy of existing Git repository. It allows to dowload the entire repository, including the files, commit, history and branches on the local devices.
+(i) Repository url - We need to provide the URL of repository we want to clone.
+(ii) Initailize local repository - Inside newly created directory, Git initializes a new repository with the structure as the remote repository.
+
+3. Git add . - This command is used to stage all the changes in the current directory and its sub directories for next commit. 
+(i) Staging changes - When we make modifications to the files in our git repository, those changes are called unstaged. unstaged changes are not included in the commit. 
+(ii) Recursive traversal - The '.' dot in git add . represents the current directory. When we run command, Git starts traversing the current changes directory and its subdirectories.
+(iii) Identifying changes - Git compares the current state of each file in the directory and subdirectories of the previous commit's state.
+
+4. Git commit -m 'Commit message' - This command is used to create a new commit in the commit with the descriptive commit message. 
+(i) 'git comit' -  This command is used to save the chnges you've staged using git add . as a new commit in the repository's history.
+(ii) '-m "Commit message"' - The -m flag stands for "message" amd is followed by the commit message enclosed in double qoutes. The commit message should provide a brief and meaningful description of the changes included in the commit. 
+For example - git commit -m "Add features to X"
+(iii) Creating commit - This command creates new commit using the changes we've previously staged.
