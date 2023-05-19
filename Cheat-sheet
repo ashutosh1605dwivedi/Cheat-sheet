@@ -1,0 +1,13 @@
+1. git intit - It is used to initialize the repository.
+2. git clone with http url - To use the repository.
+3. vi filename - To create a new file.
+4. git add . - To add the new file or track file or make changes in file.
+5. git commit -m - To commit the file with message.
+6. git checkout -b "branch name" - To create and to change to new branch.
+7. git checkout branch name - To change to new branch.
+8. git status - To check the status of repository.
+9. git push origin "branch name" - To push the file to repository.
+10. git pull request - To check the content of file is correct.
+11. git merge - This is used to merge the home branch to main branch.
+12. git log - To see the commit history.
+13. git branch - To see in which branch I'm currently in. 
